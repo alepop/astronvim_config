@@ -11,6 +11,7 @@ return {
   },
   -- Configurate flutter-tools
   { "akinsho/flutter-tools.nvim", 
+    event = "BufRead pubspec.yaml",
     opts = {
       fvm = true,
     }

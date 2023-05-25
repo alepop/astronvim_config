@@ -1,4 +1,5 @@
 return {
+  cmd = {"fvm", "dart", "language-server", "--protocol=lsp" },
   settings = {
     lineLength = 100,
     renameFilesWithClasses = 'always',
