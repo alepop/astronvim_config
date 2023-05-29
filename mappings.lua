@@ -13,6 +13,14 @@ return {
       desc = "Pick to close",
     },
     ["<leader>b"] = { name = "Buffers" },
+    ["]r"] = {
+      require('illuminate').goto_next_reference,
+      desc = "Move to next reference",
+    },
+    ["[r"] = {
+      require('illuminate').goto_prev_reference,
+      desc = "Move to previous reference",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
