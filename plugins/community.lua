@@ -1,7 +1,8 @@
 return {
   -- Add the community repository of plugin specifications
-  { "AstroNvim/astrocommunity", version = "2.0.0"},
+  { "AstroNvim/astrocommunity", version = "3.0.0"},
   { import = "astrocommunity.pack.dart" },
+  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   -- Dracula 
   { "Mofiqul/dracula.nvim",

@@ -1,8 +1,9 @@
 return {
-  cmd = {"fvm", "dart", "language-server", "--protocol=lsp" },
+  cmd = {"fvm", "dart", "language-server", "--protocol=lsp"},
   settings = {
     lineLength = 100,
-    renameFilesWithClasses = 'always',
+    renameFilesWithClasses = "prompt",
+    documentation = "summary",
     analysisExcludedFolders = {
       vim.fn.expand("$HOME/.pub-cache"),
       vim.fn.expand("$HOME/fvm/"),
